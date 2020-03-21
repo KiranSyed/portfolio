@@ -122,22 +122,46 @@ hr{
 	background-color: lightgrey;
 	padding: 2% 12%;
 }
-.btn{
-	margin: 2% auto;
-	font-weight: bolder;
-	color: #fff;
-	padding: 5px 20px;
-	border-bottom: 3px groove #ff4d00;
-	background-color: #ff4d00;
-	border-radius: 8px;
-	border: 1px groove #ff4d00;
-	border-right:  2px groove #ff4d00;
-	border-bottom: 3px groove #ff4d00;
-	box-shadow: 0 4px 12px 0 rgba(0,0,0,0.2), 0 8px 16px 0 rgba(0,0,0,0.7);
+#footer ul{
+	margin: 3% auto;
+	padding: 0;
+	justify-content: center;
+	display: flex;
 }
-.btn:hover{	
+#footer li{
+	list-style: none;
+}
+#footer a{
+	padding: 6px;
+	background-color: lightgrey;
+	text-decoration: none;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	display: block;
+	text-align: center;
+	border-radius: 50%;
+	box-sizing: border-box;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+	transition: .5s;
+	background: linear-gradient(0deg, darkgrey, lightgrey);
+	
+}
+#footer .icon{
+	color: #000;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-color: lightgrey;
+	border-radius: 50%;
+	line-height: 2;
+	font-size: 24px;
+	transition: .5s;
+	background: linear-gradient(0deg,  lightgrey, darkgrey);
+}
+#footer a:hover{	
 	color: #525252;
-	box-shadow: 0 4px 12px 0 rgba(0,0,0,0.2), 0 16px 50px 0 rgba(0,0,0,0.9);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 
 .linkedin{
